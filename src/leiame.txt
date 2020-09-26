@@ -1,0 +1,33 @@
+Este arquivo apresenta a estrutura básica relacionada a implementação do TP1.
+
+Ele contém:
+    > Um projeto básico de estruturação de código considerando a linguagem C++
+    > Um arquivo de MakeFile básico (Que deve ser modificado de acordo com a sua implementação)
+    > Um arquivo "run_testes.sh" que executa os testes (ele já é incorporado pelo Makefile)
+    > Um diretório com 6 testes disponíveis para comparação, na qual:
+        - Os arquivos ".in" representam a entrada do teste
+        - Os arquivos ".out" representam a saída esperada do teste
+
+Atenção: o Makefile disponibilizado leva em consideração a sua execução num sistema operacional Linux. Para outros sistemas, como o Windows, cabe ao aluno realizar as adequações necessárias para sua utilização.
+
+> Como compilar o seu projeto:
+    - Acesse o diretorio nome_sobrenome/src via terminal e digite o seguinte comando:
+        make
+
+> Como fazer os testes:
+    - Acesse o diretorio nome_sobrenome/src via terminal e digite o seguinte comando:
+        make test
+    - Importante: Os testes aqui disponibilizados NÃO SERÃO utilizados na correção e avaliação do TP, portanto, sua implementação não deve visar apenas passar nesses testes, e sim, resolver o problema como um todo!
+
+> Como executar o seu código individualmente (sem a realização da bateria de testes):
+    - Acesse o diretorio nome_sobrenome/src via terminal e digite o seguinte comando:
+        ./tp1
+    - Com esse comando, você pode inserir manualmente uma entrada para o algoritmo
+
+> Como executar o seu código individualmente baseado num arquivo de entrada:
+    - Acesse o diretorio nome_sobrenome/src via terminal e digite o seguinte comando:
+        ./tp1 < arquivodeentrada.extensao
+
+> Como executar o seu código individualmente baseado num arquivo de entrada e inserir a resposta dada num arquivo de saida:
+    - Acesse o diretorio nome_sobrenome/src via terminal e digite o seguinte comando:
+        ./tp1 < arquivodeentrada.extensao > arquivodesaida.extensao
