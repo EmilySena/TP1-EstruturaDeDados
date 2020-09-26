@@ -21,6 +21,7 @@ void PilhaEncadeada::Empilha(int item){
 int PilhaEncadeada::Desempilha(){
     int aux;
     Node *p;
+    p=new Node();
 
     if(tamanho==0){
         throw "A pilha está vazia!";
@@ -34,6 +35,7 @@ int PilhaEncadeada::Desempilha(){
 };
 void PilhaEncadeada::Imprime(){
     Node *p;
+    p=new Node();
     p=topo;
 
     while(p!=nullptr){

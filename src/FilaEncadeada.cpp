@@ -31,6 +31,7 @@ void FilaEncadeada::Enfileira(int item){
 
 int FilaEncadeada::Desenfileira(){
     Node *p;
+    p=new Node();
     int aux;
     if(tamanho==0)
         throw "Fila está vazia!";
